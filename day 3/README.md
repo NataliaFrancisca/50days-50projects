@@ -1,5 +1,5 @@
-# Rotating Navigation
- ## Aplicação para exibição para o usuário identificar em que passo ele está
+# Rotating Navigation Animation
+ ## Aplicação com menu animado que quando clicado, uma rotação é aplicada.
 
 
 
