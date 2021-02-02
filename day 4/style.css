@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Yusei+Magic&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	min-width: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(30,144,255,0.8);
+}
+
+.contentPesquisa{
+	height: 50px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	border-radius: 8px;
+}
+
+.inputSearch{
+	height: 50px;
+    width: 50px;
+	margin: 10px;
+	margin-left: 0px;
+	font-size: 1.2rem;
+	padding: 15px;
+	border-radius: 8px;
+	transition: transform 0.5s ease;
+}
+
+input:focus{
+	outline: none;
+}
+
+i{
+	font-size: 1.5rem;
+}
+
+.openSearch{
+	border: 0;
+	background: white;
+	position: absolute;
+	width: 40px;
+	height: 40px;	
+}
+
+.contentPesquisa.active .openSearch {
+  transform: translateX(90px);
+}
+
+.contentPesquisa.active .inputSearch {
+  width: 220px;
+  transform: translateX(-40px);
+}
+
+
+@media(max-width: 450px){
+
+	.contentPesquisa.active{
+		left: 20px;
+	}
+}
