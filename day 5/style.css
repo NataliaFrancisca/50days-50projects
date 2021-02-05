@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Yusei+Magic&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	min-width: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img{
+	background: no-repeat center cover;
+	width: 100vw;
+	height: 100vh;
+	filter: blur(0px);
+	position: absolute;
+	z-index: -1;
+}
+
+.loading-text{
+	font-size: 3rem;
+	color: black;
+}
