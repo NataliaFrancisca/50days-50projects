@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Yusei+Magic&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	width: 400px;
+	height: 200px;
+	background: rgb(345,456,123);
+	margin: 10px;
+	border-radius: 8px;
+	transform: translateX(400%);
+	transition: transform 0.8s ease;
+}
+
+.container:nth-of-type(even) {
+  transform: translateX(-400%);
+  background: rgb(123,234,345);
+}
+
+.container.show{
+	transform: translateX(0%);
+}
+
