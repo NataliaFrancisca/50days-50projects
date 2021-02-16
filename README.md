@@ -8,6 +8,6 @@
 [X] Day 5 - Blurry Loading  
 [X] Day 6 - Scroll Animation  
 [X] Day 7 - Split Landing Page  
-[ ] Day 8 - Form Wave  
+[X] Day 8 - Form Wave  
 [ ] Day 9 - Sound Board  
 [ ] Day 10 - Dad Jokes  
