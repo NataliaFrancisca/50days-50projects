@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=RocknRoll+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 1rem;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(135,206,235);
+}
+
+h2{
+  text-align: center;
+}
+
+.boxes, .container-boxes{
+  height: 200px;
+  width: 700px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.4)
+}
+
+.container-boxes{
+  display: none;
+}
+
+.box{
+  display: flex;
+  height: 80px;
+  width: 180px;
+  border: solid black 0.1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h1{
+  font-size: 1.4rem;
+}
+
+@media(max-width: 450px){
+    
+  .boxes, .container-boxes{
+    height: 500px;
+    width: 200px;
+    flex-direction: column;
+  }
+
+  .container-boxes{
+    display: none;
+  }
+
+  .message{
+    text-align: center;
+  }
+
+
+}
+
+
